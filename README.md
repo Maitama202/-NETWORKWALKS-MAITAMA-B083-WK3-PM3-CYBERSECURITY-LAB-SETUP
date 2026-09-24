@@ -1,107 +1,64 @@
-# -NETWORKWALKS-MAITAMA-B083-WK3-PM3-CYBERSECURITY-LAB-SETUP
-Week 3 Cybersecurity Lab: Password Cracking with John the Ripper (JTR) and Networkwalks Tools. Includes practical exercises, completion evidence, and a detailed project report. 🔐💻
+# 🔐 Networkwalks Week 3 – Cybersecurity Lab
 
-This repository contains my Week 3 practical work for the Networkwalks Cybersecurity & Ethical Hacking project.
+## Password Cracking with JTR & Networkwalks Tools
 
-According to the Week 3 project brief, the two essential modules are:
+This repository contains my **Week 3 Cybersecurity & Ethical Hacking practical work** completed as part of the Networkwalks training program.
 
-W3-PM1: Password Cracking with JTR
+The Week 3 project consists of two essential modules:
 
-W3-PM2: Password Cracking with Networkwalks Tools
+- **W3-PM1:** Password Cracking with JTR
+- **W3-PM2:** Password Cracking with Networkwalks Tools
 
-Both essential modules were completed.
+Both required modules were successfully completed.
 
-W3-PM1 – Password Cracking with JTR
+---
 
-Objective
+## 🎯 Objectives
 
-Recover the password of the provided protected PDF using John the Ripper (JTR).
+The main objectives of this week's practical exercises were to:
 
-Main workflow
+- Understand the basic concept of password cracking.
+- Understand how password hashes are extracted from protected files.
+- Use **John the Ripper (JTR)** to perform password recovery.
+- Use Networkwalks' browser-based password-cracking tools.
+- Recover the password of an authorized laboratory PDF.
+- Verify the recovered password by opening the protected PDF.
+- Understand the importance of strong password security.
 
-Obtain the protected PDF supplied for the lab.
+---
 
-Extract the PDF password hash.
+# 🧪 W3-PM1 – Password Cracking with JTR
 
-Save the hash in a text file.
+## 🔎 Objective
 
-Load the hash into John the Ripper / Johnny.
+The first project focused on using **John the Ripper (JTR)** to recover the password of a protected PDF file provided for the cybersecurity laboratory.
 
-Start the password-cracking attack.
+## 🛠️ Tools Used
 
-Recover the password.
+- Kali Linux
+- John the Ripper (JTR)
+- Johnny GUI
+- PDF hash extraction tool
+- Protected PDF supplied for the laboratory
 
-Use the recovered password to open the protected PDF.
+## ⚙️ Procedure
 
-Capture evidence of successful completion.
+The practical workflow involved:
 
-Tools
+1. Obtaining the protected PDF provided for the laboratory.
+2. Extracting the password hash from the PDF.
+3. Saving the extracted hash into a text file.
+4. Loading the hash into John the Ripper / Johnny.
+5. Starting the password-cracking process.
+6. Waiting for JTR to recover the password.
+7. Using the recovered password to open the protected PDF.
+8. Capturing evidence of successful completion.
 
-Kali Linux / John the Ripper
+## ✅ Result
 
-Johnny GUI (where applicable)
+The JTR password-cracking task was successfully completed.
 
-PDF hash extraction method described in the lab
-
-W3-PM2 – Password Cracking with Networkwalks Tools
-
-Objective
-
-Recover the password of the provided protected PDF using the Networkwalks Hash Calculator and Password Cracker.
-
-Main workflow
-
-Obtain the protected PDF supplied for the lab.
-
-Upload the PDF to the Networkwalks Hash Calculator.
-
-Extract the complete hash beginning with $pdf$.
-
-Open the Networkwalks Password Cracker.
-
-Paste the hash and start the attack.
-
-Wait for the password to be recovered.
-
-Use the recovered password to open the PDF.
-
-Capture evidence of successful completion.
-
-Completion Evidence
-
-Two successful completion flags were captured during the practical work:
-
+### Completion Flag
+```text
 nw{networkwalks_flag1_jtr_270521_1}
-nw{networkwalks_persistence_jtr_270521}
-
-Screenshots of the successful completion pages are included with the Week 3 submission/report.
-
-Learning Outcomes
-
-This week's practical work helped reinforce:
-
-The difference between a protected file and the password/hash information used by a cracking tool.
-
-The basic password-cracking workflow.
-
-PDF hash extraction.
-
-Using John the Ripper in a controlled lab environment.
-
-Using a browser-based password-cracking workflow.
-
-The importance of strong passwords.
-
-Ethical Use
-
-The techniques documented here are intended for the authorized training lab and files provided for the exercise. Password-cracking tools should only be used on systems, files, and accounts for which you have explicit permission.
-
-Files
-
-Week3_Report.docx – editable report
-
-Week3_Report.pdf – PDF version of the report
-
-evidence_jtr_flag.png – JTR completion evidence
-
 evidence_persistence_flag.png – second completion evidence
